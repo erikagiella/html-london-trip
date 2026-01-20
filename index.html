@@ -14,25 +14,23 @@
         <h1>
             Il mio Viaggio a Londra
         </h1>
-
-        <!-- Foto header -->
-        <div>
-            <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="img1">
-            <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="img2">
-            <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="img3">
-        </div>
-        <!-- /Foto header -->
-
-        <hr>
     </header>
     <!-- /Page header -->
 
-
     <!-- Page content -->
-    <main>
+    <main id="site_main">
+
+        <!-- Foto header -->
+        <div class="banner">
+            <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="img1">
+            <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="img2">
+            <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="img3">
+            <hr>
+        </div>
+        <!-- /Foto header -->
 
         <!-- Spese -->
-        <section>
+        <section class="expenses">
             <!--Va bene utilizzare div, ma section è semanticamente più corretto perchè div raggruppa elementi differenti mentre section identifica proprio una sezione con un titolo e altro, come in questo caso-->
             <h2>Le mie spese</h2>
 
@@ -69,16 +67,15 @@
                         <td>360&euro;</td>
                     </tr>
                 </tfoot>
+                <hr>
             </table>
             <!-- /Tabella spese -->
-
-            <hr>
         </section>
         <!-- /Spese -->
 
 
         <!-- Cose da fare -->
-        <div>
+        <section class="todo">
             <h3>
                 Cose da fare
             </h3>
@@ -93,12 +90,12 @@
             <!-- /Lista cose da fare -->
 
             <hr>
-        </div>
+        </section>
         <!-- /Cose da fare -->
 
 
         <!-- Info -->
-        <div>
+        <section class="info">
             <h3>
                 Info utili:
             </h3>
@@ -131,24 +128,21 @@
             <!-- /Lista info -->
             <hr>
 
-        </div>
+        </section>
         <!-- /Info -->
 
 
         <!-- Foto -->
-        <div>
+        <section class="pictures">
             <h3>
                 Le foto
             </h3>
-
             <!-- Immagini -->
-            <div>
-                <img src="./img/london-400x400-compressor_0.jpg" alt="img4">
-                <img src="./img/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg" alt="img5">
-            </div>
+            <img src="./img/london-400x400-compressor_0.jpg" alt="img4">
+            <img src="./img/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg" alt="img5">
             <!-- /Immagini -->
 
-        </div>
+        </section>
         <!-- /Foto -->
 
     </main>
